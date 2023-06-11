@@ -1,0 +1,344 @@
+
+
+1 python challange   
+
+book wirte code
+shun o'qib chiqsh chart advenct book python
+
+
+
+
+
+
+1 iterator in generator 
+2 decorator 
+3 classmethod
+4 property
+5 oop dunder methodlar 
+6 oop consipsiyasi 
+7 pytest unittest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Python dasturlash tili hamkorlikda backend veb-ishlab chiqish intervyusi davomida kelishi mumkin bo'lgan savollar quyidagilardan iborat bo'lishi mumkin:
+
+1. Python dasturlash tilini backend veb-ishlab chiqish uchun qachon ishlatasiz?
+2. Asosiy Python web frameworklari nima?
+3. WSGI va ASGI nima?
+4. Django frameworki haqida nima bilasiz?
+5. Flask frameworki nima?
+6. ORM (Object-Relational Mapping) nima?
+7. RESTful API qanday ishlaydi?
+8. Django REST Framework haqida nima bilasiz?
+9. SQLAlchemy va Django ORM o'rtasidagi farq nima?
+9. Middleware nima?
+10. Tpl (template) sistemalari haqida nima bilasiz?
+11. HTTP metodlari qandaydir?
+12. Token-based autentifikatsiya nima?
+13. Kaching va caching orqali veb-ishlab chiqishni qanday yaxshilash mumkin?
+14. Testing (sinov) qanday amalga oshiriladi?
+
+Bu savollar Python backend intervyusida kelishi mumkin bo'lgan kerakli mavzularni o'z ichiga oladi.
+Bu bilimlarni o'rganib tushuntirganingizdan so'ng, Python bilan backend veb-ishlab chiqish sohasida muvaffaqiyatli bo'lishingizga yo'liqishadi.
+
+
+Javoblar 
+
+Albatta! Quyidagi javoblar sizga yordam berishi mumkin:
+
+1.Python dasturlash tilini backend veb-ishlab chiqish uchun qachon ishlatasiz?
+Python, backend veb-ishlab chiqishda keng qo'llaniladigan til hisoblanadi.
+Siz uning kuchli, sodda va ko'p qo'llaniladigan sintaksisini backend loyihalarni yaratishda ishlatishingiz mumkin.
+
+2. Asosiy Python web frameworklari nima?
+Asosiy Python web frameworklari Django va Flask hisoblanadi. Django to'liq-foyda frameworki hisoblanadi va ko'p funktsionalni o'z ichiga oladi.
+Flask esa yengil, minimalistik va kuchli web frameworkdir.
+
+3. WSGI va ASGI nima?
+WSGI (Web Server Gateway Interface) va ASGI (Asynchronous Server Gateway Interface) web serverlar
+bilan Python veb frameworklar o'rtasidagi interfeyslardir. WSGI sinkron kommunikatsiyani qo'llab-quvvatlaydi,
+ASGI esa asinxron kommunikatsiyani qo'llab-quvvatlaydi. ASGI asinxronlikni qo'shish, 
+real-vaqtda aloqalarni qo'llab-quvvatlash va WebSocketlarni yaxshilash imkonini beradi.
+
+4. Django frameworki haqida nima bilasiz?
+Django, Python uchun kuchli, to'liq-foyda, ma'lumotlar bazasi tomonidan qo'llab-quvvatlangan veb frameworkdir.
+U loyihalarni tez va qulay bir qator amallar bilan yaratishga yordam beradi va kerakli komponentlarni o'z ichiga oladi,
+masalan, ORM, avtorizatsiya, to'g'ridan-to'g'ri URL-ni bajarganlik, tpl sistemasi va boshqalar.
+
+5. Flask frameworki nima?
+Flask esa minimalistik va yengil Python web frameworkidir. U oson va o'rganishi qulay bo'lgan, lekin Django kabi katta loyihalarni
+qo'llab-quvvatlamaydi. Flask kichik va o'rta miqyosdagi loyihalarni yaratish uchun juda mos keladi.
+
+6. ORM (Object-Relational Mapping) nima?
+ORM, ma'lumotlar bazasidagi obyektlarni (tablelar, qatorlar va ustunlar) Python obyektlari bilan bog'lovchi vositalardir.
+Bu vositalar yordamida ma'lumotlar bazasiga so'rovlar yuborish, ma'lumotlarni o'qish va yozish osonlashadi.
+Django va SQLAlchemy, Pythonning mashhur ORM bibliotekalari hisoblanadi.
+
+7. RESTful API qanday ishlaydi?
+RESTful API, HTTP protokolidan foydalanib ma'lumotlarni almashish uchun qo'llaniladigan arxitektura modelidir.
+U URL-lar, HTTP metodlari (GET, POST, PUT, DELETE) va ma'lumotlarni JSON yoki XML formatlarida o'z ichiga oladi.
+
+8. Django REST Framework haqida nima bilasiz?
+Django REST Framework (DRF), Django uchun kengaytirilgan RESTful API yaratishni osonlashtiruvchi kuchli bir kutubxonadir. 
+U API endpointlarni yaratish, serializatsiya, autentifikatsiya, avtorizatsiya, kaching va boshqalar kabi RESTful funksiyalarni osonlashtiradi.
+
+9. SQLAlchemy va Django ORM o'rtasidagi farq nima?
+Django ORM va SQLAlchemy, Python uchun ma'lumotlar bazasi bilan ishlashni yengil va sodda qilish uchun foydalaniladigan ORM tahlilidir. 
+Farq, Django ORM-in yer joylashuvini boshqaruvchi bir framework hisoblanishi, va uni yordamida avtomatik modellarni
+generatsiya qilish, ma'lumotlarni so'rov qilish, bazada yangilanishlar kiritish va boshqalar kabi ko'plab qulayliklarni osonlashtirishi.
+
+10. Middleware nima?
+Middleware, HTTP so'rovlarini olish va javob qaytarish jarayonida o'rtacha kodni chaqirish imkonini beradigan komponentdir.
+Django va Flask kabi web frameworklarda middleware loyihalarni tez va qulay yaratish va boshqarish uchun qo'llaniladi.
+
+11. Tpl (template) sistemalari haqida nima bilasiz?
+Tpl (template) sistemalari, veb sahifalarni dinamik ravishda generatsiya qilishga imkon beruvchi ara yuzlardir.
+Ular HTML-ning qismiga obyekt ma'lumotlarini kiritish, ma'lumotlar bilan shart-sharoitlar qo'yish
+va sahifani dinamik ravishda generatsiya qilishga imkon beradi. Django-da "Django Templates", Flask-da esa "Jinja2" tpl sistemalari keng qo'llaniladi.
+
+12. HTTP metodlari qandaydir?
+HTTP metodlari, veb-server bilan kommunikatsiya o'rnatish uchun foydalaniladigan standart so'rovlardir. 
+Asosiy HTTP metodlariga GET, POST, PUT, DELETE va boshqalar misol qilib keltiriladi.
+Bunda GET metodidan ma'lumot olish, POST metodidan ma'lumotlarni yuborish, PUT metodidan ma'lumotlarni o'zgartirish
+va DELETE metodidan ma'lumotlarni o'chirish mumkin.
+
+13. Token-based autentifikatsiya nima?
+Token-based autentifikatsiya, foydalanuvchining kimligini tasdiqlovlash uchun token yaratish asosida ishlaydigan autentifikatsiya usulidir.
+Foydalanuvchi login va parolni beradi va server tomonidan yaratilgan token qaytariladi.
+Keyin foydalanuvchi har bir so'rovda tokenni o'zgartirishsiz kirish imkoniga ega bo'ladi.
+
+14. Kaching va caching orqali veb-ishlab chiqishni qanday yaxshilash mumkin?
+Kaching va caching, veb-ishlab chiqishni yaxshilash uchun foydalaniladigan texnikalardir.
+Kaching ma'lumotlarni saqlab qolish, keyin qayta ishlatish, shuningdek, caching ma'lumotlar
+bazasini yoki texnik buyruqni ishga tushirish va natijalarini saqlash demakdir.
+Bu veb-serverga qaytadan so'rov yuborishni kamaytiradi va serverning yukini pastga olib tashlaydi.
+
+15. Testing (sinov) qanday amalga oshiriladi?
+Testing (sinov), dasturlarni sinash va to'g'rilash jarayonidir. Python-dagi unittest va pytest kabi kutubxonalardan
+foydalanib avtomatik sinovlarni yaratish mumkin. Sinovlar kodning davomida xatolarni aniqlash, funksiyalarning
+to'g'ri ishlashi va loyihalarning qo'llanishini tekshirish uchun yordam beradi.
+
+
+
+SQL 
+
+
+Python orqali SQL-ga asosiy murojaatni amalga oshirish imkoniyatiga ega bo'lsangiz, backend veb-ishlab chiqish intervyusida
+SQL bilan bog'liq savollar o'ta mumkin. Quyidagi SQL intervyu savollari sizga yordam berishi mumkin:
+
+1. SQL ni qanday ta'riflardiz?
+2. SQL da qo'llaniladigan asosiy toifalar nima?
+3. SELECT so'rovi qanday ishlaydi?
+4. WHERE kalit so'zi va uning qo'llanishlari nima?
+5. JOIN operatorka nima deyiladi? Turlari nima?
+6. FOREIGN KEY nima va uni qanday foydalanish mumkin?
+7. INDEX lar nima va ularning muhimligi nima?
+8. GROUP BY va HAVING qanday ishlaydi?
+9. INSERT INTO va VALUES qanday ishlaydi?
+10. UPDATE so'rovi qanday ishlaydi?
+11. DELETE FROM so'rovi qanday ishlaydi?
+12. SQL injektsiyalarni nima deb tushunishingiz kerak?
+13. ORM (Object-Relational Mapping) tushunchasi nima?
+14. Transaksiyalar nima va ularni qanday qo'llash mumkin?
+15. Stored Procedure (o'zgaruvchan usul) nima?
+
+Bu savollar SQL bilan bog'liq umumiy konseptlarni va dasturlashda SQL-ni qanday ishlatishni tushuntiradi. Shu bilimlarga ega bo'lganingizda,
+Python orqali SQL-ga qulaylik bilan murojaat qilish va ma'lumotlarni ma'lumotlar bazasiga saqlash va o'qishni boshqarishda
+muvaffaqiyatli bo'lishingizga yordam beradi.
+
+
+Javoblar
+
+
+Albatta! Quyidagi javoblar SQL bilan bog'liq savollarga yordam berishi mumkin:
+
+1. SQL ni qanday ta'riflardiz?
+SQL (Structured Query Language), ma'lumotlar bazasi sistemalariga ma'lumotlarni tahlil qilish
+va boshqarish uchun ishlatiladigan standart til hisoblanadi.
+
+2. SQL da qo'llaniladigan asosiy toifalar nima?
+SQL-da qo'llaniladigan asosiy toifalar quyidagilardir:
+DDL (Data Definition Language) - ma'lumotlar bazasini yaratish, o'zgartirish va o'chirish so'rovlari (CREATE, ALTER, DROP).
+DML (Data Manipulation Language) - ma'lumotlarni boshqarish so'rovlari (SELECT, INSERT, UPDATE, DELETE).
+DQL (Data Query Language) - ma'lumotlarni so'rovlash so'rovlari (SELECT).
+DCL (Data Control Language) - ma'lumotlarni boshqarish huquqini boshqarish so'rovlari (GRANT, REVOKE).
+
+3. SELECT so'rovi qanday ishlaydi?
+SELECT so'rovi ma'lumotlarni ma'lumotlar bazasidan o'qish uchun ishlatiladi. Uning sintaksi quyidagicha bo'ladi:
+sql
+Copy code
+SELECT column1, column2, ...
+FROM table_name;
+Bu so'rov belgilangan ustunlarni (columns) ma'lumotlari va shartlarni (optional) tanlashga imkon beradi.
+
+4. WHERE kalit so'zi va uning qo'llanishlari nima?
+WHERE kalit so'zi, SELECT, UPDATE va DELETE so'rovlari bilan birga ishlatiladi va ma'lumotlarni
+shartlarga asosan tanlashda foydalaniladi. Misol uchun:
+sql
+Copy code
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+Bu so'rovda "condition" shartlarini belgilash uchun foydalaniladi.
+
+5. JOIN operatorka nima deyiladi? Turlari nima?
+JOIN operatori, bir-biriga bog'liq bo'lgan jadvallarni ma'lumotlari biriktirish uchun ishlatiladi. Quyidagi JOIN turlari mavjud:
+INNER JOIN: Ikki yoki undan ko'p jadvalni ustunlaridan moslashgan ma'lumotlarni olish uchun ishlatiladi.
+LEFT JOIN: Chap jadval bilan o'ng jadvalni ustunlaridan moslashgan ma'lumotlarni olish uchun ishlatiladi.
+RIGHT JOIN: O'ng jadval bilan chap jadvalni ustunlaridan moslashgan ma'lumotlarni olish uchun ishlatiladi.
+FULL JOIN: Chap va o'ng jadval bilan ustunlarni moslashgan ma'lumotlarni olish uchun ishlatiladi.
+
+6. FOREIGN KEY nima va uni qanday foydalanish mumkin?
+FOREIGN KEY, bir jadvalning boshqa jadvalga havola qilish uchun ishlatiladi. Uning orqali ikki jadval 
+o'rtasida bog'lanish yaratiladi. Bu bog'lanish ma'lumotlar to'plami o'rtasida integritetni saqlaydi va ma'lumotlarni xalqaro qilishni osonlashtiradi.
+
+7. INDEX lar nima va ularning muhimligi nima?
+INDEX, ma'lumotlar bazasidagi ma'lumotlar ustunlariga tezkor vaqtda murojaat qilish uchun foydalaniladi.
+U ma'lumotlarni tartiblash va qidirishni tezlashtiradi. INDEXlar ma'lumotlar bazasining effektiv ishlashi uchun muhimdir.
+
+8. GROUP BY va HAVING qanday ishlaydi?
+GROUP BY, SELECT so'rovi bilan birga ishlatiladi va ma'lumotlarni ustunlarga asosan guruhlarga ajratish uchun foydalaniladi.
+HAVING esa guruhga tegishli shartlarni belgilash uchun ishlatiladi.
+
+9. INSERT INTO va VALUES qanday ishlaydi?
+INSERT INTO, yangi ma'lumotlarni ma'lumotlar bazasiga qo'shish uchun foydalaniladi.
+VALUES esa yangi ma'lumotlarni belgilash uchun ishlatiladi. Misol uchun:
+sql
+Copy code
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
+
+10. UPDATE so'rovi qanday ishlaydi?
+UPDATE, ma'lumotlar bazasidagi ma'lumotlarni yangilash uchun foydalaniladi. Misol uchun:
+sql
+Copy code
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+11. DELETE FROM so'rovi qanday ishlaydi?
+DELETE FROM, ma'lumotlar bazasidagi ma'lumotlarni o'chirish uchun foydalaniladi. Misol uchun:
+sql
+Copy code
+DELETE FROM table_name
+WHERE condition;
+
+12. SQL injektsiyalarni nima deb tushunishingiz kerak?
+SQL injektsiyasi, ma'lumotlar bazasiga ishonmasdan yuborilgan ma'lumotlarni ishlatib,
+hujjatda xavfsizlik holatiga yo'l qo'yadigan salbiy kod qo'shishga imkon beruvchi hujjatlardir.
+Bu xavfsizlik xatoligi, yolg'on foydalanuvchi tomonidan kiritilgan ma'lumotlardan foydalaniladi.
+
+13. ORM (Object-Relational Mapping) tushunchasi nima?
+ORM, ma'lumotlar bazasi obyektlarini dasturlash tilining obyektlariga o'girish imkonini beruvchi vositalardir.
+ORM orqali ma'lumotlar bazasidagi jadval obyektlarini Python obyektlariga o'girish, ma'lumotlarni so'rov qilish va saqlash osonlashtiriladi.
+
+14. Transaksiyalar nima va ularni qanday qo'llash mumkin?
+Transaksiyalar, bir yoki bir nechta so'rovlarni ma'lumotlar bazasida amalga oshirish jarayonida to'liq yoki to'liq
+emas amalga oshirishni ta'minlovchi mekanizmalardir. Transaksiyalarni boshqarish orqali, ma'lumotlar bazasida
+to'g'rilik va o'xshashlikni saqlash mumkin.
+
+15. Stored Procedure (o'zgaruvchan usul) nima?
+Stored Procedure, ma'lumotlar bazasida saqlangan va keyin ishlatiladigan SQL so'rovlari to'plamidir.
+Ular server tomonidan ishga tushiriladigan bitta so'rov yoki so'rovlardan iborat bo'lishi mumkin.
+Stored Procedure'lar ma'lumotlarni boshqarishda qulaylik va to'g'ri huquqni ta'minlashda yordam beradi.
+
+
+
+Pyhton basic
+
+
+
+Python dasturlash tilida intervyu jarayonida quyidagi asosiy savollar o'ta mumkin:
+
+1. Python da type va typecasting (tip va tipga o'tkazish) qanday ishlaydi?
+2. List va tuple arasidagi farq qanday?
+3. Set va dictionary arasidagi farq nima?
+4. Python da "mutable" va "immutable" ma'lumotlar turlari nima?
+5. Python da "pass by value" va "pass by reference" nima?
+6. Python da modullar va paketlar qanday ishlaydi?
+7. Class (klass) va obyekt (object) o'rtasidagi farq nima?
+8. Python da try-except bloklari va exception (istisnolar) qanday ishlaydi?
+9. Iterator va generatorlar arasidagi farq nima?
+10. "Decorator" (suzuvchi) funksiyalar qanday ishlaydi?
+
+Bu savollar Python tilidagi asosiy konseptlarni va dasturlashning muhim qismalarini qamrab oladi.
+Shu bilimlarga ega bo'lganingizda Python dasturlash tilida muvaffaqiyatli ishlash uchun tayyor bo'lasiz.
+
+javoblari 
+
+
+Albatta! Quyidagi javoblar Python dasturlash tilidagi intervyu savollariga yordam berishi mumkin:
+
+1. Python da type va typecasting (tip va tipga o'tkazish) qanday ishlaydi?
+type funksiyasi Python o'zida qo'llaniladigan obyektni turini aniqlash uchun ishlatiladi. Masalan: type(5) natija sifatida int ni qaytaradi.
+typecasting esa bir turi boshqa turga o'girishni ifodalaydi. Misol uchun, int() funksiyasi orqali matn tipidagi ma'lumotni butun son tipiga o'girish mumkin.
+
+2. List va tuple arasidagi farq qanday?
+List va tuple ikkisi ham ma'lumotlar turlari, ammo ularga farq bor:
+List o'zgartirib bo'lish mumkin (mutable), ya'ni elementlarni qo'shish, o'chirish, o'zgartirish mumkin.
+Tuple esa o'zgartirib bo'lmaydigan (immutable), ya'ni bir bor tuzilganidan keyin o'zgartirib bo'lmaydi.
+
+3. Set va dictionary arasidagi farq nima?
+Set unikal elementlardan iborat bo'lgan ma'lumotlar turi. Elementlar tartib qilmaydi va indekslarni yo'qotadi.
+Dictionary esa kalit-so'z va qiymatlar (value) jamlanmasidir. Kalit-so'zlar indekslar sifatida xizmat qiladi.
+
+4. Python da "mutable" va "immutable" ma'lumotlar turlari nima?
+"Mutable" ma'lumotlar turlari o'zgartirib bo'ladigan ma'lumotlardir. Masalan, listlar, dictionarylar.
+"Immutable" ma'lumotlar turlari esa o'zgartirib bo'lmaydigan ma'lumotlardir. Misol uchun, sonlar, matnlar, tuple'lar.
+
+5. Python da "pass by value" va "pass by reference" nima?
+Python da o'zgaruvchanlar "pass by reference" emas, balki "pass by value" bo'lib ishlaydi. Bunda o'zgaruvchan qiymati uzatilmaydi, balki qiymatning ko'plik yaratiladi.
+
+6. Python da modullar va paketlar qanday ishlaydi?
+Modul, Python dasturlash tilida yozilgan kod to'plamidir. Modul orqali kodni boshqa fayllardan import qilish va qo'llash mumkin.
+Paket esa bir nechta modullarni ichiga olgan katalog hisoblanadi. Paketlar hierarchiyasini tashkil etish uchun foydalaniladi.
+
+7. Class (klass) va obyekt (object) o'rtasidagi farq nima?
+Class, obyektning tuzilishini va xususiyatlarini (sifatlarini) belgilovchi ko'rsatkichdir.
+Obyekt esa klassdan yaratilgan istisnoiy nusxadir. Obyekt, klassga xos xususiyatlar va funksiyalar bilan birlashtirilgan.
+
+8. Python da try-except bloklari va exception (istisnolar) qanday ishlaydi?
+try-except bloklari xatoliklarni qayta ishlash uchun ishlatiladi. 
+Xatolik ro'y berishi mumkin bo'lgan qismlar try blokida joylashadi, va qanday xatolikning ro'y berishi kuzatiladi.
+Agar xatolik ro'y berib bo'lsa, except blokida tanlangan xatolik turi bilan qayta ishlov beriladi.
+
+9. Iterator va generatorlar arasidagi farq nima?
+Iterator, obyektni bitta va bitta elementini o'qishga yordam beruvchi protocolni amalga oshiradigan obyekt hisoblanadi.
+Generator esa iteratorlarning yaratilishi uchun oson sintaksisni taklif etuvchi funksiya hisoblanadi.
+
+10. "Decorator" (suzuvchi) funksiyalar qanday ishlaydi?
+Decorator funksiyalar, boshqa funksiyalarni o'zgartirishsiz modifikatsiya qilishga yordam beradigan funksiyalar hisoblanadi.
+Decorator funksiya, dekoratsiya qilinadigan funksiyani o'z ichiga oladi va uni o'zgartirib qo'yadi.
+
+Umid qilamanki, bu javoblar sizga yordam beradi va Python dasturlash tilida muvaffaqiyatli bo'lishingizga olib keladi!
+
+
+
+
+
+
+
+
+
+
+
+
